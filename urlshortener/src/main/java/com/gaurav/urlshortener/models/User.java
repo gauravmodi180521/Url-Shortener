@@ -1,16 +1,16 @@
 package com.gaurav.urlshortener.models;
 
 public class User {
-    public String Id;
-    public String name;
-    public String email;
+    private String id;
+    private String name;
+    private String email;
 
     public String getId() {
-        return Id;
+        return id;
     }
 
     public void setId(String id) {
-        Id = id;
+        id = id;
     }
 
     public String getName() {
